@@ -1,0 +1,3 @@
+import DashboardDefaultContentContainer from './DashboardDefaultContentContainer'
+
+export default DashboardDefaultContentContainer

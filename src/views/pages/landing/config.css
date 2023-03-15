@@ -1,0 +1,134 @@
+* {
+  letter-spacing: .03em;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  font-style: normal;
+  src: url('src/scss/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  font-style: normal;
+  src: url('src/scss/fonts/Raleway/static/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  font-style: normal;
+  src: url('src/scss/fonts/Raleway/static/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  font-style: normal;
+  src: url('src/scss/fonts/Raleway/static/Raleway-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  font-style: normal;
+  src: url('src/scss/fonts/Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Light';
+  font-style: normal;
+  src: url('src/scss/fonts/Gilroy/Gilroy-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  src: url('src/scss/fonts/Gilroy/Gilroy-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Semibold';
+  font-style: normal;
+  src: url('src/scss/fonts/Gilroy/Gilroy-Semibold.ttf');
+}
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy Semibold';
+  color: #333333;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a, footer a, .header_a-button {
+  color: #CBCBCB;
+}
+
+header a:hover, footer a:hover, .header_a-button:hover {
+  color: #2F80ED!important;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul li, ol li {
+  list-style: none;
+}
+
+ul, span, .process {
+  line-height: 19px;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+header {
+  z-index: 100;
+  padding: 20px 0;
+  font-family: 'Gilroy Regular';
+}
+
+main p, main ul, span {
+  font-family: "Gilroy Light";
+}
+
+main a {
+  font-family: "Gilroy Regular";
+}
+
+section {
+  padding: 40px 0;
+}
+
+section img {
+  object-fit: contain;
+}
+
+section:nth-of-type(odd), footer {
+  background-color: #F8F8F8;
+}
+
+footer {
+  padding: 60px 0 40px 0;
+  font-family: 'Gilroy Regular';
+}
+
+footer nav ul:not(footer nav ul:nth-last-of-type) {
+  margin-right: 100px;
+}
+
+footer p {
+  font-size: 16px;
+}

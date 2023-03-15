@@ -1,0 +1,397 @@
+// Here you can add other styles
+@font-face {
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  src: url('fonts/Gilroy/Gilroy-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Semibold';
+  font-style: normal;
+  src: url('fonts/Gilroy/Gilroy-Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Light';
+  font-style: normal;
+  src: url('fonts/Gilroy/Gilroy-Light.ttf');
+}
+
+* {
+  letter-spacing: 0.03em;
+}
+
+h6 {
+  font-family: "Gilroy Semibold";
+}
+
+span {
+  font-family: "Gilroy Light";
+}
+
+.no-events {
+  pointer-events: none;
+}
+
+input:focus, .form-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-check:focus + .btn, .btn:focus,
+.btn-check:checked + .btn:focus, .btn-check:active + .btn:focus,
+.btn:active:focus, .btn.active:focus, .show > .btn.dropdown-toggle:focus
+{
+  box-shadow: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn-sm {
+  padding-top: $btn-padding-y-sm + .1rem;
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+  border: 1px solid #2F80ED;
+}
+
+.sidebar-nav {
+  flex: initial;
+  font-family: $font-family-gilroy-regular;
+  font-weight: 400;
+}
+
+.company-name {
+  font-family: $font-family-gilroy-light;
+  font-size: $font-size-base *.875;
+}
+
+.info-dropdown .accordion-button, .info-dropdown .accordion-item {
+  box-shadow: none;
+  background-color: #63A2F5;
+}
+
+.info-dropdown .accordion-button::after {
+  background-image: $accordion-custom-button-icon;
+}
+
+.company-name::before {
+  content: '';
+  width: 1px;
+  height: 45px;
+  background-color: #F2F2F2;
+}
+
+.modal-header .btn.btn-close:hover {
+  background: transparent var(--cui-btn-close-bg, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333333'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")) center/1em auto no-repeat;
+}
+
+.amount-container {
+  position: relative;
+}
+
+.amount-container::after {
+  content: '%';
+  color: #BDBDBD;
+  position: absolute;
+  bottom: 6px;
+  right: 12px;
+}
+
+//input#percentage::placeholder, input#percentage:focus::placeholder {
+//  text-align: right;
+//  color: #BDBDBD;
+//}
+
+.form-select {
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  resize: none;
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+  background-image: url('../assets/icons/svg/done.svg');
+}
+
+.completedRegistration {
+  background-image: url('../assets/icons/svg/done.svg');
+}
+
+// .form-check-input:checked[type=checkbox] {
+//   background-image: url('../assets/icons/svg/checkbox.svg');
+// }
+
+.intermittent.spinner-border {
+  border: none;
+  background-image: url('../assets/icons/svg/loading.svg');
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+}
+
+.card, .employees.list-group, .accordion-item {
+  box-shadow: 6px 6px 10px rgba(232, 232, 232, 0.3), -6px -6px 10px rgba(232, 232, 232, 0.3)
+}
+
+.employees .btn:hover {
+  color: $white;
+}
+
+.employees.list-group-item, .card, .accordion-item {
+  border: none;
+}
+
+.employees.list-group-item:nth-child(even) {
+  border: 1px solid #F2F2F2;
+  border-bottom: none;
+  background-color: #FBFBFB;
+}
+
+.employees.list-group-item {
+  border: 1px solid #F2F2F2;
+  border-bottom: none;
+}
+
+.employees.list-group-item:last-child {
+  border-bottom: 1px solid #F2F2F2;
+}
+
+p {
+  font-size: $font-size-base * 1.125;
+}
+
+.active {
+  font-weight: 700;
+  box-shadow: inset 3px 0 0 0 $white;
+}
+
+.nav-link.active {
+  font-weight: normal;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid $input-border-color;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg * 1.2;
+}
+
+.font-size-md {
+  font-size: $font-size-lg * .8;
+}
+
+.font-size-xs {
+  font-size: $font-size-lg * .6;
+}
+
+.btn-outline-primary {
+  &.disabled {
+    border-color: $primary-base;
+  }
+
+  &:hover {
+    color: $white;
+    background-color: rgba($color: $primary-base, $alpha: .85);
+  }
+}
+
+.btn.btn-ghost-secondary {
+  background: transparent;
+  border: none;
+}
+
+.btn-check:checked + .btn,
+.btn-check:active + .btn,
+.btn:active, .btn.active,
+.show > .btn.dropdown-toggle,
+.btn-check:focus + .btn, .btn:focus {
+  color: $white;
+  background-color: rgba($color: $primary-base, $alpha: .75);
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  border: none;
+}
+
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus,
+.form-control:invalid:focus, .form-control.is-invalid:focus {
+  box-shadow: none;
+}
+
+html:not([dir=rtl]) .sidebar-nav .nav-icon:first-child {
+  margin-left: -1.35rem;
+}
+
+.btn.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: none;
+  background-color: #63A2F5;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-image: none;
+}
+
+#react-autowhatever-autosuggest .list-group-item:first-child {
+  border-top: none;
+  border-radius: 0;
+}
+
+.modal-header .btn-close {
+  align-self: flex-start;
+}
+
+.nav-tabs {
+  .nav-item {
+    position: relative;
+    margin-right: 12px;
+  }
+  .nav-link {
+    cursor: pointer;
+    color: $gray-700;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    &.active {
+      cursor: initial;
+    }
+    &.active::before {
+      content: '';
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $primary-base;
+      border-radius: 2px;
+    }
+  }
+}
+
+.breadcrumb .breadcrumb-item {
+  cursor: pointer;
+  color: $primary-base;
+  &.active {
+    cursor: initial;
+    color: $gray-700;
+  }
+}
+
+.react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow, .react-datepicker__navigation-icon::before {
+  top: 15px!important;
+}
+
+.breadcrumb-item a {
+  color: $primary-base;
+  text-decoration: none;
+}
+
+.widget {
+  font-size: $font-size-xs;
+}
+
+.sidebar_landing {
+  width: 100%;
+  flex: 0 0 100%;
+  background: white;
+}
+
+.dropzone {
+  outline: none;
+}
+
+.rounded-xl {
+  border-radius: .6rem;
+}
+
+.rounded-top-xl {
+  border-top-right-radius: .6rem;
+  border-top-left-radius: .6rem;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.sidebar-nav .nav-link {
+  align-items: normal;
+}
+
+html:not([dir=rtl]) .sidebar_landing.sidebar:not(.show).sidebar-self-hiding-md:not(.sidebar-end) {
+  margin-left: -100%;
+}
+
+h5, .h6, h5, h6 {
+  line-height: 1.66;
+}
+
+.white-with-right-arrow {
+  font-family: "Gilroy Regular";
+  font-weight: 600;
+  stroke: #fff;
+}
+
+.white-with-right-arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 25px;
+
+  width: 68px;
+  height: 12px;
+
+  background-image: url("./../assets/icons/svg/white-right-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transition-duration: 0.3s;
+  transform: scale(1, 1);
+}
+
+.white-with-right-arrow:hover {
+  transition-duration: 0.3s;
+}
+
+.white-with-right-arrow:hover::after {
+  transform: translateX(4px);
+  transition-duration: 0.3s;
+}
+
+.create-request-form {
+  height: 7.188rem;
+}
+
+@include media-breakpoint-down(md) {
+  .w-md-100 {
+    width: 100%;
+  }
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+  .safari_only {
+    padding-bottom: 7px;
+    line-height: 1.24;
+  }
+}}

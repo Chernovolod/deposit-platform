@@ -1,0 +1,3 @@
+import DefaultDepositsContentContainer from './DefaultDepositsContentContainer'
+
+export default DefaultDepositsContentContainer
