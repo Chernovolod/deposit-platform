@@ -15,8 +15,8 @@
     "static/css/5.1cb97576.chunk.css": "/deposit-platform/static/css/5.1cb97576.chunk.css",
     "static/js/5.e60d5d0c.chunk.js": "/deposit-platform/static/js/5.e60d5d0c.chunk.js",
     "static/js/5.e60d5d0c.chunk.js.map": "/deposit-platform/static/js/5.e60d5d0c.chunk.js.map",
-    "static/js/6.b39f21db.chunk.js": "/deposit-platform/static/js/6.b39f21db.chunk.js",
-    "static/js/6.b39f21db.chunk.js.map": "/deposit-platform/static/js/6.b39f21db.chunk.js.map",
+    "static/js/6.791c8470.chunk.js": "/deposit-platform/static/js/6.791c8470.chunk.js",
+    "static/js/6.791c8470.chunk.js.map": "/deposit-platform/static/js/6.791c8470.chunk.js.map",
     "static/js/7.1fe87cfc.chunk.js": "/deposit-platform/static/js/7.1fe87cfc.chunk.js",
     "static/js/7.1fe87cfc.chunk.js.map": "/deposit-platform/static/js/7.1fe87cfc.chunk.js.map",
     "static/js/8.fb00ad91.chunk.js": "/deposit-platform/static/js/8.fb00ad91.chunk.js",
@@ -24,8 +24,8 @@
     "main.css": "/deposit-platform/static/css/main.bedb7c3a.chunk.css",
     "main.js": "/deposit-platform/static/js/main.fce27f4d.chunk.js",
     "main.js.map": "/deposit-platform/static/js/main.fce27f4d.chunk.js.map",
-    "runtime-main.js": "/deposit-platform/static/js/runtime-main.7175df9e.js",
-    "runtime-main.js.map": "/deposit-platform/static/js/runtime-main.7175df9e.js.map",
+    "runtime-main.js": "/deposit-platform/static/js/runtime-main.ef4e0f27.js",
+    "runtime-main.js.map": "/deposit-platform/static/js/runtime-main.ef4e0f27.js.map",
     "static/js/11.71013b2c.chunk.js": "/deposit-platform/static/js/11.71013b2c.chunk.js",
     "static/js/11.71013b2c.chunk.js.map": "/deposit-platform/static/js/11.71013b2c.chunk.js.map",
     "static/js/12.996827f0.chunk.js": "/deposit-platform/static/js/12.996827f0.chunk.js",
@@ -133,7 +133,7 @@
     "static/media/search.ae5d54cc.png": "/deposit-platform/static/media/search.ae5d54cc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7175df9e.js",
+    "static/js/runtime-main.ef4e0f27.js",
     "static/js/11.71013b2c.chunk.js",
     "static/css/main.bedb7c3a.chunk.css",
     "static/js/main.fce27f4d.chunk.js"
