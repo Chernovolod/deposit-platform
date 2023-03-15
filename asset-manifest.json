@@ -22,8 +22,8 @@
     "static/js/8.fb00ad91.chunk.js": "/deposit-platform/static/js/8.fb00ad91.chunk.js",
     "static/js/8.fb00ad91.chunk.js.map": "/deposit-platform/static/js/8.fb00ad91.chunk.js.map",
     "main.css": "/deposit-platform/static/css/main.bedb7c3a.chunk.css",
-    "main.js": "/deposit-platform/static/js/main.3485f5e4.chunk.js",
-    "main.js.map": "/deposit-platform/static/js/main.3485f5e4.chunk.js.map",
+    "main.js": "/deposit-platform/static/js/main.fce27f4d.chunk.js",
+    "main.js.map": "/deposit-platform/static/js/main.fce27f4d.chunk.js.map",
     "runtime-main.js": "/deposit-platform/static/js/runtime-main.7175df9e.js",
     "runtime-main.js.map": "/deposit-platform/static/js/runtime-main.7175df9e.js.map",
     "static/js/11.71013b2c.chunk.js": "/deposit-platform/static/js/11.71013b2c.chunk.js",
@@ -136,6 +136,6 @@
     "static/js/runtime-main.7175df9e.js",
     "static/js/11.71013b2c.chunk.js",
     "static/css/main.bedb7c3a.chunk.css",
-    "static/js/main.3485f5e4.chunk.js"
+    "static/js/main.fce27f4d.chunk.js"
   ]
 }
