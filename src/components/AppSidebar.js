@@ -63,7 +63,7 @@ const AppSidebar = ({ user: { company, type, status }, isBusinessUserType, isBan
       } }
     >
       <CSidebarBrand className="d-none d-md-flex justify-content-start px-3 pt-3 mb-2" to="/">
-        <Link to='/landing'>
+        <Link to='/dashboard?mode=default'>
           <CIcon style={{pointerEvents: 'none'}} className="sidebar-brand-full" name="logo" height={ 56 }/>
         </Link>
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="47">

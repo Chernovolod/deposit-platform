@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Redirect, Route, Switch } from 'react-router-dom'
 import { connect } from 'react-redux'
 import './scss/style.scss'
 import i18n from './i18n';
@@ -68,7 +68,7 @@ class App extends Component {
     const { isBankUserType, isBusinessUserType, isLoggedIn } = this.props
 
     return (
-      <BrowserRouter>
+      <HashRouter>
         <React.Suspense fallback={ loading }>
           <I18nextProvider i18n={ i18n }>
             <Switch>
@@ -93,7 +93,7 @@ class App extends Component {
               <Route path="/privacy-policy" name="PrivacyPolicy" render={ (props) => <PrivacyPolicy { ...props } /> }/>
               <Route exact path="/404" name="Page 404" render={ (props) => <Page404 { ...props } /> }/>
               <Route exact path="/500" name="Page 500" render={ (props) => <Page500 { ...props } /> }/>
-              <Route exact path="/landing" name="Landing" render={ (props) => <Landing { ...props } /> }/>
+              <Route exact path="/" name="Landing" render={ (props) => <Landing { ...props } /> }/>
               { !isLoggedIn && isBusinessUserType && <Redirect to="/login"/> }
               { !isLoggedIn && isBankUserType && <Redirect to="/bank/login"/> }
               { !isLoggedIn && <Redirect to="/login"/> }
@@ -101,7 +101,7 @@ class App extends Component {
             </Switch>
           </I18nextProvider>
         </React.Suspense>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
